@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- H5标准 -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<style>
+		*{margin:0;padding: 0;}
+		.zong{
+			border:3px solid black;
+			width: 1100px;
+			height: 800px;
+			margin:auto;
+		}
+		.dingduan{
+			/*边框：大小 类型 颜色*/
+			border:3px solid black;
+			width: 1000px;
+			height: 20px;
+			margin: auto;
+			margin-top: 10px;
+		}
+		.daohang,.dingduan{
+			/*边框：大小 类型 颜色*/
+			border:3px solid black;
+			width: 1000px;
+			height: 40px;
+			margin: auto;
+			margin-top: 10px;
+		}
+		.nav{
+			width: 900px;
+			height: 200px;
+			border:3px solid red;
+			margin:20px auto;
+		}
+		.left1,.left2,.left3{
+			width:333px;
+			height: 200px;
+			border: 3px solid black;
+			float: left;
+			margin: auto;
+		}
+		.left11{
+			margin-left: 20px ;}
+	
+	</style>
+</head>
+<body>
+<div class="zong">
+	<div class="dingduan wow slideInUp"></div>
+	<!--页面顶端-->
+	<div class="daohang wow slideInUp"></div>
+		<!-- 导航结束 -->
+
+		<div class="nav wow slideInUp" ></div>
+		<!-- 轮播结束 -->
+
+		<div class="left11">
+			<div class="left1  wow slideInUp">
+		</div>
+		<!-- 左1边栏结束 -->
+
+			<div class="left2 wow slideInUp"></div>
+		<!-- 左2边栏结束 -->
+
+		<div class="left3 wow slideInUp"></div>
+		<!-- 左3边栏结束 -->
+
+		</div>
+		<!-- 信息展示区结束 -->
+			
+	</div><!--总结束-->
+	
+
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--wow流体布局结束-->
+</body>
+</html>

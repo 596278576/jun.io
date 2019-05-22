@@ -1,0 +1,359 @@
+.szxy{
+width:300px;
+float:right;}
+.xuexi{
+float:left;
+width:114px;
+height:47px;
+background-image:url(images/20181218/xxzx.png);}
+.xuexi:hover{
+float:left;
+width:114px;
+height:47px;
+background-image:url(images/20181218/xxzx2.png);}
+.shuzi{
+float:left;
+width:114px;
+height:47px;
+background-image:url(images/20181218/szxy.png);}
+.shuzi:hover{
+float:left;
+width:114px;
+height:47px;
+background-image:url(images/20181218/szxy2.png);}/* 以下样式不用修改 开始*/
+    /* 默认ul 无需修改 */
+    .nav_menustyle_1_1 ul
+    {
+        list-style-type:none;
+        padding:0px; 
+        margin:0px;
+z-index:8;}
+    /* 默认li 无需修改 */
+    .nav_menustyle_1_1 li
+    {
+        float:left;
+        text-align:center;
+        position:relative;
+z-index:7;}
+    /* 2级以上 li 无需修改 */
+    .nav_menustyle_1_1 ul li ul
+    {
+        background-image:url(images/20181218/menu.png);
+        padding:10px;
+        float:none;
+        z-index:6;}
+    .nav_menustyle_1_1 ul li ul li
+    {
+        float:none;
+        z-index:6;}
+    /* 3级以上默认ul 无需修改 */
+    .nav_menustyle_1_1 ul li ul li ul
+    {
+        left:100%;
+        top:0px;}
+    /* IE6下的table样式 无需修改 */
+    .nav_menustyle_1_1 table 
+    {
+        position:absolute; 
+        left:0px;
+        border-collapse:collapse; 
+        border-spacing:0; 
+        z-index:8;}   
+    .nav_menustyle_1_1 table table
+    {
+        top:0px;}
+    .nav_menustyle_1_1 td 
+    {
+        padding: 0;}   
+    /* 共6级导航子菜单打开关闭控制 无需修改 */
+    .nav_menustyle_1_1 li ul,
+    .nav_menustyle_1_1 li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li ul
+    {
+        display:none;}
+    .nav_menustyle_1_1 li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li ul
+    {
+        visibility:hidden;}
+    .nav_menustyle_1_1 li a:hover ul,
+    .nav_menustyle_1_1 li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul    
+    {
+        display:block;
+        position:absolute;}
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li a:hover ul
+    {
+        visibility:visible;}
+    /* 默认a属性 无需修改 */
+    .nav_menustyle_1_1 a
+    {
+        display:block;
+        text-decoration:none;
+        white-space:nowrap;}
+/* 以上样式不用修改 结束*/
+/* 默认链接样式 可以修改默认的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 a
+{
+    width:123px;         /*菜单宽度*/
+    height:42px;        /*菜单高度*/
+    line-height:42px;   /*字体高度, 可设为菜单高度*/
+    font-size:14px;     /*字体大小*/
+    color:#000;         /*字体颜色*/
+    background-image:url(images/20181218/menubg.jpg);}
+/* 默认hover链接样式 可以设置默认的鼠标移上样式 */
+.nav_menustyle_1_1 a:hover
+{
+    color:#000; /*鼠标移上颜色*/
+    background-image:url(images/20181218/menubg2.jpg);}
+/* IE6兼容性代码，在IE6下起效， 必须根据菜单高宽进行设定 */
+.nav_menustyle_1_1 table 
+{
+    top:26px;}   
+.nav_menustyle_1_1 table table
+{
+    left:91px;}   
+/* 2级以上链接样式 可以修改2级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li a
+{
+    width:103px;         /*菜单宽度*/
+    height:28px;        /*菜单高度*/
+    line-height:28px;   /*字体高度, 可设为菜单高度*/
+    font-size:14px;     /*字体大小*/
+    color:#fff;         /*字体颜色*/
+    background-image:none;
+    border-bottom:solid 1px #fff;}
+/* 2级以上hover链接样式 可以修改2级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li a:hover
+{
+    color:#000;         /*字体颜色*/
+    background-image:none;
+    border-bottom:solid 1px #fff;}
+/* 3级以上链接样式 可以修改3级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li ul li a
+{}
+/* 3级以上hover链接样式 可以修改3级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li ul li a:hover
+{}
+#focus {
+    width: 927px;
+    height: 412px;
+    margin: 0 auto;
+    background: url(../images/loading.png) no-repeat 48% 37%;}
+#slides {
+    position: absolute;
+    z-index: 1;}
+.slides_container {
+    width: 927px;
+    overflow: hidden;
+    position: relative;
+    display: none;}
+.slides_container a {
+    width: 927px;
+    height: 412px;
+    display: block;}
+.pagination {
+    position: absolute;
+    bottom: 3px;
+    z-index: 999;
+    padding: 0 10px;
+    padding-top: 3px;
+    margin-left: 45%;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 10px #ccc inset;
+    border-radius: 10px;
+    width: 72px;
+    height: 14px;}
+.pagination li {
+    float: left;
+    margin: 0 4px;}
+.pagination li a {
+    display: block;
+    width: 10px;
+    height: 0;
+    padding-top: 10px;
+    background: url(images/pagination_1.png) 0 0;
+    float: left;
+    overflow: hidden;}
+.pagination li.current a {
+    background-position: 0 -10px;
+    _background-position: 0 -9px;}
+/*内容*/
+#column_ab_a {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    padding: 60px 30px 20px;}
+#column_ab_b {
+    width: 300px;
+    overflow: hidden;
+    float: right;}
+/*#column_ab_a*/
+#column_ab_a div {
+    width: 250px;
+    float: left;
+    overflow: hidden;
+    color: #a1a1a1;
+    margin: 0 30px;
+    display: inline;}
+#column_ab_a div h2 {
+    font-size: 16px;
+    color: #4d4d4d;
+    padding-left: 50px;
+    height: 40px;}
+#column_ab_a div#coupon h2 {
+    background: url(../images/coupon_h2.jpg) no-repeat left center;}
+#column_ab_a div#ticket h2 {
+    background: url(../images/ticket_h2.jpg) no-repeat left center;}
+#column_ab_a div h2 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #a1a1a1;
+    display: block;
+    background: none;}
+#column_ab_a div p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    text-indent: 2em;}
+#column_ab_a div p a {
+    color: #ee4017;
+    background: url(../images/more.png) no-repeat right center;
+    padding-right: 10px;
+    margin-left: 10px;}
+#column_ab_a div p a:hover {
+    text-decoration: underline;}
+#column_ab_a div h3,
+#column_ab_a div h4 {
+    text-align: right;}
+#column_ab_a div h3 {
+    margin-top: 5px;}
+/*#column_ab_b*/
+#column_ab_b div {
+    width: 219px;
+    overflow: hidden;
+    color: #a1a1a1;
+    border-left: 1px solid #cecece;
+    margin-top: 60px;
+    padding: 0 40px;}
+#column_ab_b div h2 {
+    font-size: 16px;
+    color: #4d4d4d;
+    background: url(../images/system_h2.jpg) no-repeat left center;
+    padding-left: 50px;
+    height: 40px;}
+#column_ab_b div h2 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #a1a1a1;
+    display: block;
+    background: none;}
+#column_ab_b div dl {
+    margin-top: 20px;
+    line-height: 24px;}
+#column_ab_b div dt {
+    color: #4d4d4d;
+    font-weight: bold;
+    background: url(../images/dot1.png) no-repeat left center;
+    padding-left: 15px;}
+#column_ab_b div dd {
+    padding-left: 15px;
+    margin-bottom: 10px;}
+#column_ab_b div a {
+    display: block;
+    width: 161px;
+    height: 44px;
+    background: url(../images/tosystem.jpg);
+    text-indent: -9999px;
+    margin: 20px auto;}
+#sbuding {
+    display: block;
+    width: 161px;
+    height: 44px;
+    background: url(../images/tosystem.jpg);
+    text-indent: -9999px;
+    margin-left:60px;}
+.morestyle20759{ font-size: 9pt ;}
+.clickstyle20759{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont20759{ font-size: 12px; line-height: 150% ;}
+.titlestyle20759{ line-height: 200%; font-size: 14px; text-decoration: none ;}
+.columnstyle20759{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle20759{ line-height: 150%; color: #222222; font-size: 12px ;}
+.winstyle20759{ width:360px ;}
+A.c20759 {
+line-height: 200%; font-size: 14px; text-decoration: none 
+;}
+A.c20759:link {
+color:#222222;}
+A.c20759:visited {
+color:#222222;}
+A.c20759:active {
+color: #222222;}
+A.c20759:hover {
+color: #be2634;}.titlestyle20760{ line-height: 220%; color: #222222; font-size: 14px; font-weight: bold; text-decoration: none ;}
+.summarystyle20760{ line-height: 150%; color: #222222; font-size: 9pt ;}
+.morestyle20761{ font-size: 9pt ;}
+.clickstyle20761{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont20761{ font-size: 12px; line-height: 150% ;}
+.titlestyle20761{ line-height: 200%; font-size: 14px; text-decoration: none ;}
+.columnstyle20761{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle20761{ line-height: 150%; color: #222222; font-size: 12px ;}
+.winstyle20761{ width:360px ;}
+A.c20761 {
+line-height: 200%; font-size: 14px; text-decoration: none 
+;}
+A.c20761:link {
+color:#222222;}
+A.c20761:visited {
+color:#222222;}
+A.c20761:active {
+color: #222222;}
+A.c20761:hover {
+color: #be2634;}.titlestyle20762{ line-height: 220%; color: #222222; font-size: 14px; font-weight: bold; text-decoration: none ;}
+.summarystyle20762{ line-height: 150%; color: #222222; font-size: 9pt ;}
+.morestyle20763{ font-size: 9pt ;}
+.clickstyle20763{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont20763{ font-size: 12px; line-height: 150% ;}
+.titlestyle20763{ line-height: 200%; font-size: 14px; text-decoration: none ;}
+.columnstyle20763{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle20763{ line-height: 150%; color: #222222; font-size: 12px ;}
+.winstyle20763{ width:360px ;}
+A.c20763 {
+line-height: 200%; font-size: 14px; text-decoration: none 
+;}
+A.c20763:link {
+color:#222222;}
+A.c20763:visited {
+color:#222222;}
+A.c20763:active {
+color: #222222;}
+A.c20763:hover {
+color: #be2634;}.titlestyle20764{ line-height: 220%; color: #222222; font-size: 14px; font-weight: bold; text-decoration: none ;}
+.summarystyle20764{ line-height: 150%; color: #222222; font-size: 9pt ;}
+.morestyle20765{ font-size: 9pt ;}
+.clickstyle20765{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont20765{ font-size: 12px; line-height: 150% ;}
+.titlestyle20765{ line-height: 200%; font-size: 14px; text-decoration: none ;}
+.columnstyle20765{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle20765{ font-size: 12px; color: #222222; line-height: 150%;}
+A.c20765 {
+line-height: 200%; font-size: 14px; text-decoration: none 
+;}
+A.c20765:link {
+color:#222222;}
+A.c20765:visited {
+color:#222222;}
+A.c20765:active {
+color: #222222;}
+A.c20765:hover {
+color: #be2634;}

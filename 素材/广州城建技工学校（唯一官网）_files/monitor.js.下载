@@ -1,0 +1,39 @@
+try{document.open();}catch(e){;}
+var live800_companyID="184460";
+var live800_protocol="http:";
+var live800_isMobile="0";
+var jsessionId = ";jsessionid=3924BB4F85972CB98161E163414D990D";
+try{
+if(navigator.cookieEnabled && navigator.platform !== "iPhone" && navigator.platform !== "iPad"){jsessionId = "";}
+}catch(e){}
+var enterurl = null;
+enterurl="http%3A%2F%2Fwww.gzccvs.com%2Findex.htm";
+var isOldSkin=false;
+var server_prefix_list=['http://chat56.live800.com/live800'];
+var isNeedCheckDomainBinding=false;
+var globalWindowAttribute='toolbar=0,scrollbars=0,location=0,menubar=0,resizable=1,width=920,height=620';
+live800_chatVersion="5";
+jid="7540801288";
+var live800_baseUrl="chat56.live800.com";
+var live800_baseHtmlUrl="chat56.live800.com";
+var live800_baseWebApp="/live800";
+var live800_baseChatHtmlDir="/chatClient";
+live800_Language="zh";
+monitor_live800_configID="61932";
+var live800_status="0";
+var live800_login_status=false;
+var live800_show_design=true;
+var monitorInterval=15000;
+live800_chatSkinColor ="#8BB6E9";
+live800_chatSkinColor2 = "#6D98CB";
+monitor_live800_configContent="live800_invite_auto=1&live800_invite_repeat=1&live800_invite_repeat_number=2&live800_invite_repeat_time=10&live800_invite_delay=5&live800_invite_top=0&live800_invite_style=12&live800_invite_fixed_pos=1&pageChatVisible=1&posSide=right&sideSpace=50&posSide=right&sideSpace=50&live800_invite_title=%26%2336992%3B%26%2335831%3B";
+live800_inviteContent="&#35831;&#38382;&#26377;&#20160;&#20040;&#21487;&#20197;&#24110;&#24744;?";
+live800_visitorAddr="&#27426;&#36814;&#24744;&#65292;&#26469;&#33258; &#24191;&#19996;&#30465;&#24191;&#24030;&#24066; &#30340;&#26379;&#21451;";
+var invite_accept='&#30830;&#12288;&#23450;';
+var invite_cancel='&#21462;&#12288;&#28040;';
+var v8_wrap_min='&#26368;&#23567;&#21270;';
+var v8_wrap_close='&#32467;&#26463;&#26381;&#21153;';
+var innerpage_chat='&#28857;&#20987;&#21672;&#35810;';
+var innerpage_leavemessage='&#28857;&#20987;&#30041;&#35328;';
+var default_exit_words='&#24744;&#30830;&#23450;&#24744;&#35201;&#36864;&#20986;&#21527;?';
+var leavewordEnable=0;var isChatWindowViaSSL=false;document.write("<scr"+"ipt language=\"javascript\" src=\"http://chat56.live800.com/live800/chatClient/script/monitorStatic8.js?v=20190213\"></scr"+"ipt>");
