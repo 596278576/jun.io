@@ -37,6 +37,29 @@
         height: 300px;
       }
      }
+     @media(max-width: 768px){
+
+        .top-1{
+          display: none;
+        }
+        .icon li img{
+          width: 50px;
+          height: 50px;
+        }
+        .icon li h2{
+          font-size: 16px;
+        }
+        .xs-left{
+          display: none;
+        }
+        .xs-right{
+          display: none;
+        }
+        .z-left{
+          float: none;
+          margin: 30px auto;
+        }
+     }
    </style>
 </head>
 <body>
@@ -44,10 +67,10 @@
 	<div class="container-fluid top">
  		<div class="container">
  			<div class="row">
- 				  <div class="col-lg-8 col-md-8 col-sm-7 col-xs-7">
+ 				  <div class="col-lg-8 col-md-8 col-sm-7 col-xs-10">
  				  	<img class="img" src="img/top.jpg">
  				  </div>
-  				  <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5">
+  				  <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5 top-1">
   				  	  <div class="right1">
   				  		<a href="">加入收藏</a>
   				  		|
@@ -173,19 +196,19 @@
 <div class="container icon">
     <ul class="list-unstyled text-danger">
       <div class="row">
-        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <img src="img/pic01.jpg" alt="">
             <div><h2>招生咨询</h2></div>
         </li>
-        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <img src="img/pic02.jpg" alt="">
             <div><h2>办学优势</h2></h2></div>
         </li>
-        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <img src="img/pic03.jpg" alt="">
             <div><h2>校企合作</h2></div>
         </li>
-        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <img src="img/pic04.jpg" alt="">
             <div><h2>学生园地</h2></div>
         </li>
@@ -359,17 +382,17 @@
 <!-- 页脚 -->
 <footer class="container-fluid">
   <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
-  <div class="footer1 col-lg-6 col-md-8 col-sm-10 col-xs-12">
+  <div class="footer1 col-lg-6 col-md-8 col-sm-10">
     
-      <div class="pull-left">
+      <div class="pull-left xs-left">
         <img src="img/zgjd.jpg" alt="">
          <h6>官方公众号</h6>
       </div>
-      <div class="pull-left">
+      <div class="pull-left xs-right">
         <img src="img/zgjd.jpg" alt="">
          <h6>春季招生群</h6>
       </div>
-      <div class="pull-left">
+      <div class="z-left">
         <h6>版权所有：广州城建技工学校</h6>
         <h6>招生咨询热线：020-37984999 传真：020-37984333</h6> 
         <h6>地 址：广州市从化环市东路166号 邮编：510925 粤ICP备16043362号</h6>
