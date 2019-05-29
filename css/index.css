@@ -19,7 +19,7 @@ a{
 .top .right2 a{
 	background: #be2635;
 	color: white;
-	border-radius:35%;
+	border-radius:30px;
 }
 .top .right2 a:hover{
 	background: white;
@@ -70,6 +70,12 @@ a{
 	float: left;
 	margin: 10px auto;
 	text-align: center;
+}
+.icon ul a:link{
+	color: #be2635;
+}
+.icon li:hover{
+      box-shadow: darkgrey 5px 5px 5px 5px ;
 }
 .news-left,.news-right{
 	background: #eeeeee;
