@@ -1,0 +1,156 @@
+*{padding: 0px; margin: 0px;}
+a{
+	text-decoration:none
+}
+.top{
+	background: #be2635;
+	height: 150px;
+
+}
+
+.top .right2{
+	
+	margin:10px 0 0 10px;
+
+	/*border: 1px red solid;*/
+	float: right;
+	/*overflow: hidden;*/
+}
+.top .right2 a{
+	background: #be2635;
+	color: white;
+	border-radius:30px;
+}
+.top .right2 a:hover{
+	background: white;
+	color: #be2635;
+
+}
+.top .right2 a:active{
+	background: white;
+	color: #be2635;
+}
+.top .right1{
+	float: right;
+	margin:50px 25px 0 10px;
+	
+}
+.top .right1 a{
+	color: white;
+}
+.top .right1 a:hover{
+	color: yellow;
+	text-decoration:none;
+}
+.top img{
+	width: 100%;
+	height: 150px;
+}
+.qc{
+	clear: both;
+}
+.slide .swiper-container,.slide .swiper-wapper,.slide .swiper-slide,.slide .swiper-container img{
+	width: 100%;
+	height: 400px;
+}
+.aisle{
+	width: 100%;
+	height: 400px;
+	background: #eeeeee;
+	padding-top: 5px;
+}
+.aisle span{
+	font-size: 20px;
+
+}
+.aisle li{
+	margin-top: 20px;
+}
+.icon li{
+	float: left;
+	margin: 10px auto;
+	text-align: center;
+}
+.icon ul a:link{
+	color: #be2635;
+}
+.icon li:hover{
+      box-shadow: darkgrey 5px 5px 5px 5px ;
+}
+.news-left,.news-right{
+	background: #eeeeee;
+	height: 265px;
+}
+
+.news-right{
+	float: right;
+}
+.news-left .left1 li{
+	padding: 5px 10px;
+}
+.news-left .left1 li:hover{
+	background: #be2635;
+	color: white;
+}
+
+.news-slide .swiper-container,.news-slide .swiper-wapper,.news-slide .swiper-slide,.news-slide .swiper-container img{
+	width: 100%;
+	height: 150px;
+}
+.news-left1 li div,.news-left2 li div,.news-left3 li div{
+ width:180px;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+ /*-o-text-overflow:ellipsis;*/
+ overflow: hidden;
+ line-height: 2;
+}
+
+.news-left2{
+	display: none;
+}
+.news-left3{
+	display: none;
+}
+.bg{
+	background: #be2635;
+	color: white;
+}
+.news-right1 li{
+	line-height: 2;
+}
+.img1{
+	width: 100%;
+
+}
+.news-right2 div{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+footer{
+	background: #be2635;
+	margin: 10px;
+}
+.footer1{
+	/*padding: : 10px 30%;*/
+	color: white;
+	padding: 10px 0 20px 0; 
+}
+.footer1 div{
+	margin: 0 10px;
+	text-align: center;
+}
+.li h6 div{
+	margin-top: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+.mtk{
+	position: fixed;
+	right: 10%;
+	bottom: 10%;
+}
+.z-left{
+	float: left;
+}
