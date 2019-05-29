@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/index.css">
    <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
    <title>广州城建技工学校</title>
    <style type="text/css">
     *{padding: 0px; margin: 0px;}
@@ -77,7 +78,7 @@
 </head>
 <body>
   <!-- top -->
-  <div class="container-fluid top">
+  <div class="container-fluid top wow slideInUp">
     <div class="container">
       <div class="row">
           <div class="col-lg-8 col-md-8 col-sm-7 col-xs-10">
@@ -162,9 +163,9 @@
 </nav>
 
 <!-- 轮播图 -->
-<div class="container">
+<div class="container wow slideInUp">
   <div class="row">
-    <div class="slide col-lg-9 col-md-9 col-sm-9 col-xs-12">
+    <div class="slide col-lg-9 col-md-9 col-sm-9 col-xs-12 wow slideInLeft">
           <div class="swiper-container">
               <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
@@ -181,7 +182,7 @@
 
 
     <!-- 快速通道 -->
-    <div class="alisle1 col-lg-3 col-md-3 col-sm-3 col-xs-0">
+    <div class="alisle1 col-lg-3 col-md-3 col-sm-3 col-xs-0 wow slideInRight">
       <div class="aisle">
         <span class="label label-danger">快速通道</span>
         <ul class="list-unstyled">
@@ -198,7 +199,7 @@
 </div>
 
 <!-- 图标 -->
-<div class="container icon">
+<div class="container icon wow slideInUp">
     <ul class="list-unstyled">
       <div class="row">
         <a href=""><li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -222,11 +223,11 @@
 </div>
 
 <!-- 新闻 -->
-<div class="container news">
+<div class="container news wow slideInUp">
     <div class="row">
 
     <!-- news left -->
-      <div class="news-left col-lg-6 col-md-7 col-sm-12 col-xs-12">
+      <div class="news-left col-lg-6 col-md-7 col-sm-12 col-xs-12 wow slideInRight">
           <ul class="list-unstyled left1 clearfix">
             <li class="new1 pull-left"><h4>学校要闻</h4></li>
             <li class="new2 pull-left"><h4>学校新闻</h4></li>
@@ -334,7 +335,7 @@
       </div>
 
     <!-- news right   -->
-      <div class="news-right col-lg-5 col-md-5 col-sm-12 col-xs-12 new1-1">
+      <div class="news-right col-lg-5 col-md-5 col-sm-12 col-xs-12 new1-1 wow slideInLeft">
         <div class="row">
           <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <ul class="clearfix">
@@ -368,7 +369,7 @@
 </div>
 
 <!-- 友情链接 -->
-<div class="container li">
+<div class="container li wow slideInLeft">
   <div class="row">
   <h6>
   <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4">友情链接:</div>
@@ -385,7 +386,7 @@
 </div><!-- /.container-fluid -->
 
 <!-- 页脚 -->
-<footer class="container-fluid">
+<footer class="container-fluid wow slideInUp">
   <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
   <div class="footer1 col-lg-6 col-md-8 col-sm-10">
     
@@ -445,6 +446,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/swiper.min.js"></script>
+     <script src="js/wow.min.js"></script>
+
     <script>
   var mySwiper = new Swiper('.swiper-container', {
 
@@ -484,7 +487,8 @@ $(document).ready(function(){
     $(".news-left3").show();
   });
 
-});      
+});    
+new WOW().init();  
     </script>
 </body>
 </html>
